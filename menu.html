@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Food Party Packages | Cherry Jane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=400;500;600;700;800&family=Playfair+Display:ital,wght=0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+
+    <header class="main">
+        <div class="container">
+            <div class="logo">
+                <div class="logo-badge"></div>
+                <div class="logo-text">
+                    <div class="top">Cherry Jane</div>
+                    <div class="bottom">Food Packages</div>
+                </div>
+            </div>
+            <nav class="primary-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="back-home-link">← Back to Home</a></li>
+                    <li><a href="index.html#reviews">Reviews</a></li>
+                    <li><a href="index.html#about">About Us</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-toggle" id="cartToggle" aria-label="View cart">
+                    🛒<span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="nav-toggle" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="packages" id="packages-top" style="background-color: var(--cream); min-height: 80vh;">
+        <div class="container">
+            <p class="eyebrow" style="margin-top: 20px;"><span class="dash"></span> Complete Menu <span class="dash"></span></p>
+            <h2 class="section-title">All Available Food Packages</h2>
+
+            <div class="pkg-grid">
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500&q=80" alt="Package A spread">
+                        <div class="price-badge">₱3,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package A</h3>
+                        <p class="pax">Good for 10-12 Pax</p>
+                        <p class="desc">2 Ulam, 1 Pancit, 1 Rice, 1 Dessert &amp; 1 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package A" data-pax="Good for 10-12 Pax" data-price="₱3,500" data-grid-type="bento-5" data-inclusions='
+                        <div class="bento-item main-dish"><img src="/api/placeholder/400/300" alt="Ulam 1"><span>🍗 Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 2"><span>🥩 Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Pancit"><span>🍜 Pancit</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert"><span>🍮 Dessert</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Kakanin"><span>🥮 Kakanin</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80" alt="Package B spread">
+                        <div class="price-badge">₱4,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package B</h3>
+                        <p class="pax">Good for 15-20 Pax</p>
+                        <p class="desc">3 Ulam, 1 Pancit, 1 Rice, 2 Desserts &amp; 1 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package B" data-pax="Good for 15-20 Pax" data-price="₱4,500" data-grid-type="bento-6" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 1"><span>🍗 Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 2"><span>🥩 Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 3"><span>🐟 Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Pancit"><span>🍜 Pancit</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert 1"><span>🍮 Dessert 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert 2"><span>🍦 Dessert 2</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=80" alt="Package C spread">
+                        <div class="price-badge">₱6,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package C</h3>
+                        <p class="pax">Good for 25-30 Pax</p>
+                        <p class="desc">4 Ulam, 2 Pancit, 2 Rice, 2 Desserts &amp; 2 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package C" data-pax="Good for 25-30 Pax" data-price="₱6,500" data-grid-type="bento-more" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 4</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Desserts</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=500&q=80" alt="Package D spread">
+                        <div class="price-badge">₱8,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package D</h3>
+                        <p class="pax">Good for 40-50 Pax</p>
+                        <p class="desc">5 Ulam, 2 Pancit, 3 Rice, 3 Desserts &amp; 2 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package D" data-pax="Good for 40-50 Pax" data-price="₱8,500" data-grid-type="bento-more" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 4</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 5</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Desserts</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOD MENU (A-la-carte items) -->
+    <section class="food-menu" id="menu">
+        <div class="container">
+            <p class="eyebrow"><span class="dash"></span> Order by the Tray, Pan, or Bilao <span class="dash"></span></p>
+            <h2 class="section-title">Food Menu</h2>
+
+            <h3 class="menu-category-title">🍗 Ulam</h3>
+            <div class="menu-grid">
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1625938144755-652e08e359b7?w=500&q=80" alt="Beef Caldereta">
+                    <div class="product-overlay">
+                        <div class="product-title">Beef Caldereta</div>
+                        <div class="product-pax">Good for 8-10 Pax</div>
+                        <div class="product-price">₱1,500 / Tray</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Beef Caldereta (Tray)" data-price="₱1,500">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1604908554007-6e0d80c1d5d3?w=500&q=80" alt="Chicken Adobo">
+                    <div class="product-overlay">
+                        <div class="product-title">Chicken Adobo</div>
+                        <div class="product-pax">Good for 8-10 Pax</div>
+                        <div class="product-price">₱1,300 / Tray</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Chicken Adobo (Tray)" data-price="₱1,300">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=500&q=80" alt="Pork Menudo">
+                    <div class="product-overlay">
+                        <div class="product-title">Pork Menudo</div>
+                        <div class="product-pax">Good for 8-10 Pax</div>
+                        <div class="product-price">₱1,350 / Tray</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Pork Menudo (Tray)" data-price="₱1,350">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80" alt="Pancit Bihon">
+                    <div class="product-overlay">
+                        <div class="product-title">Pancit Bihon</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱900 / Tray</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Pancit Bihon (Tray)" data-price="₱900">🛒 Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="menu-category-title">🍮 Desserts</h3>
+            <div class="menu-grid">
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=500&q=80" alt="Gourmet Leche Flan">
+                    <div class="product-overlay">
+                        <div class="product-title">Gourmet Leche Flan</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱250 / Pan</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Gourmet Leche Flan (Pan)" data-price="₱250">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=500&q=80" alt="Buko Salad">
+                    <div class="product-overlay">
+                        <div class="product-title">Buko Salad</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱400 / Bowl</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Buko Salad (Bowl)" data-price="₱400">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500&q=80" alt="Fruit Salad">
+                    <div class="product-overlay">
+                        <div class="product-title">Fruit Salad</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱400 / Bowl</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Fruit Salad (Bowl)" data-price="₱400">🛒 Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="menu-category-title">🥮 Kakanin &amp; Miryenda</h3>
+            <div class="menu-grid">
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1626200926749-1c2b2dfd1f5d?w=500&q=80" alt="Special Puto">
+                    <div class="product-overlay">
+                        <div class="product-title">Special Puto</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱400 / Bilao</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Special Puto (Bilao)" data-price="₱400">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=500&q=80" alt="Biko">
+                    <div class="product-overlay">
+                        <div class="product-title">Biko</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱450 / Bilao</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Biko (Bilao)" data-price="₱450">🛒 Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card menu-item-card">
+                    <img class="product-img" src="https://images.unsplash.com/photo-1599490659213-e2b9527bd087?w=500&q=80" alt="Palabok">
+                    <div class="product-overlay">
+                        <div class="product-title">Palabok</div>
+                        <div class="product-pax">Good for 10-12 Pax</div>
+                        <div class="product-price">₱950 / Tray</div>
+                        <button class="btn btn-primary add-to-cart-direct" data-name="Palabok (Tray)" data-price="₱950">🛒 Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="bentoPackageModal" class="bento-modal">
+        <div class="bento-modal-content">
+            <span class="bento-modal-close">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3 id="bentoModalTitle">Package Title</h3>
+                    <p id="bentoModalPax" class="bento-pax-subtitle">Pax Target</p>
+                </div>
+                <div id="bentoModalPrice" class="bento-price-tag">₱0,000</div>
+            </div>
+            <div id="bentoGridContainer" class="bento-gallery-grid"></div>
+            <div class="bento-modal-footer">
+                <div class="qty-stepper">
+                    <button type="button" class="qty-btn" id="bentoQtyMinus" aria-label="Decrease quantity">−</button>
+                    <span id="bentoQtyValue">1</span>
+                    <button type="button" class="qty-btn" id="bentoQtyPlus" aria-label="Increase quantity">+</button>
+                </div>
+                <button id="bentoOrderBtn" class="btn btn-primary">🛒 Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CART MODAL -->
+    <div id="cartModal" class="bento-modal">
+        <div class="bento-modal-content cart-modal-content">
+            <span class="bento-modal-close" id="cartModalClose">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3>Your Cart</h3>
+                    <p class="bento-pax-subtitle" id="cartItemCount">0 items</p>
+                </div>
+            </div>
+            <div id="cartItemsList" class="cart-items-list">
+                <p class="cart-empty-msg">Your cart is empty. Browse our packages and add something delicious!</p>
+            </div>
+            <div class="cart-total-row">
+                <span>Total</span>
+                <span id="cartTotalPrice">₱0</span>
+            </div>
+            <div class="bento-modal-footer">
+                <button id="checkoutBtn" class="btn btn-primary" disabled>Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHECKOUT MODAL -->
+    <div id="checkoutModal" class="bento-modal">
+        <div class="bento-modal-content checkout-modal-content">
+            <span class="bento-modal-close" id="checkoutModalClose">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3>Checkout</h3>
+                    <p class="bento-pax-subtitle">Choose how you'd like to send your order</p>
+                </div>
+            </div>
+            <div class="checkout-form">
+                <label>Your Name
+                    <input type="text" id="custName" placeholder="Juan Dela Cruz">
+                </label>
+                <label>Contact Number
+                    <input type="tel" id="custPhone" placeholder="09XXXXXXXXX">
+                </label>
+                <label>Date Needed
+                    <input type="date" id="custDate">
+                </label>
+                <label>Delivery Address / Notes
+                    <textarea id="custNotes" rows="2" placeholder="Delivery address or special instructions"></textarea>
+                </label>
+            </div>
+            <div id="checkoutSummary" class="checkout-summary"></div>
+            <div class="checkout-options">
+                <button id="sendEmailBtn" class="btn btn-outline">📧 Send via Email</button>
+                <button id="sendMessengerBtn" class="btn btn-primary">💬 Send via Messenger</button>
+                <button id="sendTextBtn" class="btn btn-dark">📱 Send via Text/SMS</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">© 2026 Cherry Jane Food Packages. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

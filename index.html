@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Jane Food Packages | Lutong Bahay Tipid Tips</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="topbar" id="topbar">
+        <div class="container">
+            <span>We ACCEPT orders for: Food Party Package (Desserts, Ulam, Miryenda, Kakanin)</span>
+            <div class="topbar-right">
+                <a href="tel:09207074255">CHEAP SHIPPING FEE</a>
+                <a href="#" aria-label="YouTube">▶ Lutong Bahay Tipid Tips</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="main">
+        <div class="container">
+            <a href="#topbar">
+                <div class="logo">
+                    <div class="logo-badge"></div>
+                    <div class="logo-text">
+                        <div class="top">Cherry Jane</div>
+                        <div class="bottom">Food Packages</div>
+                    </div>
+                </div>
+            </a>
+            <nav class="primary-nav">
+                <ul class="nav-menu">
+                    <li><a href="menu.html">Food Menu and Packages</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-toggle" id="cartToggle" aria-label="View cart">
+                    🛒<span class="cart-count" id="cartCount">0</span>
+                </button>
+                <button class="nav-toggle" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-copy">
+                <h1>Delicious Food.<br>Perfect for Every <span class="accent">Occasion!</span></h1>
+                <p class="lede">Food Party Package (Desserts, Ulam, Miryenda, Kakanin)</p>
+                <div class="rule"></div>
+                <ul class="features">
+                    <li><span class="check">✓</span> Affordable packages</li>
+                    <li><span class="check">✓</span> Fresh &amp; quality ingredients</li>
+                    <li><span class="check">✓</span> Perfect for any event</li>
+                    <li><span class="check">✓</span> Deliver around Bulacan, Pampanga, and Metro Manila</li>
+                </ul>
+                <div class="cta-row">
+                    <a href="https://www.facebook.com/cherryjanesimbulan.salenga" class="btn btn-primary" target="_blank">Order via Messenger</a>
+                    <a href="menu.html" class="btn btn-outline">View All Food and Packages</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <p class="eyebrow"><span class="dash"></span> Our Best-Selling <span class="dash"></span></p>
+            <h2 class="section-title">Food Party Packages</h2>
+            <div class="pkg-grid">
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="food-package/package1.jpg" alt="Package A spread">
+                        <div class="price-badge">₱3,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package A</h3>
+                        <p class="pax">Good for 10-12 Pax</p>
+                        <p class="desc">2 Ulam, 1 Pancit, 1 Rice, 1 Dessert &amp; 1 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package A" data-pax="Good for 10-12 Pax" data-price="₱3,500" data-grid-type="bento-5" data-inclusions='
+                        <div class="bento-item main-dish"><img src="/api/placeholder/400/300" alt="Ulam 1"><span>🍗 Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 2"><span>🥩 Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Pancit"><span>🍜 Pancit</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert"><span>🍮 Dessert</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Kakanin"><span>🥮 Kakanin</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&q=80" alt="Package B spread">
+                        <div class="price-badge">₱4,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package B</h3>
+                        <p class="pax">Good for 15-20 Pax</p>
+                        <p class="desc">3 Ulam, 1 Pancit, 1 Rice, 2 Desserts &amp; 1 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package B" data-pax="Good for 15-20 Pax" data-price="₱4,500" data-grid-type="bento-6" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 1"><span>🍗 Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 2"><span>🥩 Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Ulam 3"><span>🐟 Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Pancit"><span>🍜 Pancit</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert 1"><span>🍮 Dessert 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Dessert 2"><span>🍦 Dessert 2</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=80" alt="Package C spread">
+                        <div class="price-badge">₱6,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package C</h3>
+                        <p class="pax">Good for 25-30 Pax</p>
+                        <p class="desc">4 Ulam, 2 Pancit, 2 Rice, 2 Desserts &amp; 2 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package C" data-pax="Good for 25-30 Pax" data-price="₱6,500" data-grid-type="bento-more" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 4</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Desserts</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+                <div class="pkg-card">
+                    <div class="pkg-thumb">
+                        <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?w=500&q=80" alt="Package D spread">
+                        <div class="price-badge">₱8,500</div>
+                    </div>
+                    <div class="pkg-body">
+                        <h3>Package D</h3>
+                        <p class="pax">Good for 40-50 Pax</p>
+                        <p class="desc">5 Ulam, 2 Pancit, 3 Rice, 3 Desserts &amp; 2 Kakanin</p>
+                        <button class="btn btn-primary view-pkg-btn" data-title="Package D" data-pax="Good for 40-50 Pax" data-price="₱8,500" data-grid-type="bento-more" data-inclusions='
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 3</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 4</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Ulam 5</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 1</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Pancit 2</span></div>
+                        <div class="bento-item"><img src="/api/placeholder/200/200" alt="Food"><span>Desserts</span></div>
+                    '>
+                View Package
+            </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- WHAT WE OFFER -->
+    <section class="offer" id="offer">
+        <div class="container">
+            <p class="eyebrow"><span class="dash"></span> Complete <span class="dash"></span></p>
+
+            <!-- Inside index.html "What We Offer" Section -->
+            <h2 class="section-title">Food Menu</h2>
+            <div class="offer-box">
+                <div class="carousel-viewport">
+                    <div class="carousel-track">
+
+                        <!-- Item 1: Ulam -->
+                        <a href="package.html?id=ulam1" class="offer-card">
+                            <img src="menu/caldereta.jpg" alt="Beef Caldereta">
+                            <div class="label">Beef Caldereta</div>
+                        </a>
+
+                        <!-- Item 2: Dessert -->
+                        <a href="package.html?id=dessert1" class="offer-card">
+                            <img src="menu/palabok.jpg" alt="Leche Flan">
+                            <div class="label">Palabok</div>
+
+                        </a>
+
+                        <!-- Item 3: Kakanin -->
+                        <a href="package.html?id=kakanin1" class="offer-card">
+                            <img src="menu/puto.jpg" alt="Special Puto">
+                            <div class="label">Special Puto</div>
+                        </a>
+
+                        <!-- Add your other 17 items here following the exact same structure... -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="menu.html" class="btn btn-outline">View Food and Packages</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-avatars">
+                        <img src="image/profile.jpg" alt="Cherry Jane logo badge">
+                    </div>
+                    <div class="satisfaction">
+                        <div class="num">100%</div>
+                        <div class="label">CUSTOMER SATISFACTION</div>
+                    </div>
+                </div>
+
+                <div class="about-body">
+                    <p class="eyebrow" style="justify-content:flex-start;">About Us</p>
+                    <h3>Lutong Bahay,<br><span class="hi">Tipid Tips</span></h3>
+                    <p>Kami ay nag-aalok ng masasarap, malinis at affordable na pagkain para sa inyong mga espesyal na okasyon.</p>
+                    <p>Maraming salamat sa inyong suporta!</p>
+                    <p class="sign">— Cherry Jane</p>
+                </div>
+
+                <div class="why">
+                    <h4>Why Choose Us?</h4>
+                    <ul>
+                        <li><span class="icn">🍽️</span> Masarap na lutong bahay</li>
+                        <li><span class="icn">✨</span> Malinis at siguradong kalidad</li>
+                        <li><span class="icn">💰</span> Sulit at abot-kayang packages</li>
+                        <li><span class="icn">⏰</span> On-time delivery</li>
+                        <li><span class="icn">❤️</span> Made with love</li>
+                    </ul>
+                </div>
+                <div class="about-photo" style="max-width:500px;margin-left:auto;">
+                    <img src="/menu/demo.jpg" alt="Catering table spread with balloons">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <p class="eyebrow"><span class="dash"></span> What Our Customers Say <span class="dash"></span></p>
+            <h2 class="section-title" style="margin-bottom:30px;"></h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Super sarap ng food! Sulit na sulit at napadami pa ang aming bisita. Highly recommended!</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="Maria Teresa">
+                        <span>— Maria Teresa</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Laging on-time ang delivery at fresh laging ang pagkain. Thank you Cherry Jane!</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Crisanto Salenga">
+                        <span>— Crisanto Salenga</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Best food package! Kumpleto at napakasarap ng desserts at kakanin. Thank you po!</p>
+                    <div class="reviewer">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="Jhenylyn Manalo">
+                        <span>— Jhenylyn Manalo</span>
+                    </div>
+                </div>
+            </div>
+            <div class="dots"><span class="active"></span><span></span><span></span></div>
+        </div>
+    </section>
+
+    <!-- CTA BAR -->
+    <section class="cta-bar" id="contact">
+        <div class="container">
+            <div>
+                <h3>Ready to Order?</h3>
+                <p>Message us now or call for faster transaction!</p>
+            </div>
+            <div class="btn-row">
+                <a href="https://www.facebook.com/cherryjanesimbulan.salenga" class="btn btn-dark">💬 Message Us on Messenger</a>
+                <a href="tel:09207074255" class="btn btn-white">📞 Call 09207074255</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>Cherry Jane Food Packages</h4>
+                    <p>We ACCEPT orders for Food Party Package (Desserts, Ulam, Miryenda, Kakanin). Thank you!</p>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/cherryjanesimbulan.salenga" aria-label="Facebook">f</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#packages">Food Packages</a></li>
+                        <li><a href="#offer">Desserts &amp; Kakanin</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>📞 09207074255</li>
+                        <li>f Lutong Bahay Tipid Tips</li>
+                        <li>📍 Calumpang, Calumpit, Bulacan</li>
+                        <li>🕒 Available Daily</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Business Hours</h4>
+                    <p>Monday – Sunday<br>6:00 AM – 8:00 PM</p>
+                    <p style="margin-top:10px;">We accept advance orders!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 Cherry Jane Food Packages. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <div id="bentoPackageModal" class="bento-modal">
+        <div class="bento-modal-content">
+            <span class="bento-modal-close">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3 id="bentoModalTitle">Package Title</h3>
+                    <p id="bentoModalPax" class="bento-pax-subtitle">Pax Target</p>
+                </div>
+                <div id="bentoModalPrice" class="bento-price-tag">₱0,000</div>
+            </div>
+            <div id="bentoGridContainer" class="bento-gallery-grid"></div>
+            <div class="bento-modal-footer">
+                <div class="qty-stepper">
+                    <button type="button" class="qty-btn" id="bentoQtyMinus" aria-label="Decrease quantity">−</button>
+                    <span id="bentoQtyValue">1</span>
+                    <button type="button" class="qty-btn" id="bentoQtyPlus" aria-label="Increase quantity">+</button>
+                </div>
+                <button id="bentoOrderBtn" class="btn btn-primary">🛒 Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CART MODAL -->
+    <div id="cartModal" class="bento-modal">
+        <div class="bento-modal-content cart-modal-content">
+            <span class="bento-modal-close" id="cartModalClose">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3>Your Cart</h3>
+                    <p class="bento-pax-subtitle" id="cartItemCount">0 items</p>
+                </div>
+            </div>
+            <div id="cartItemsList" class="cart-items-list">
+                <p class="cart-empty-msg">Your cart is empty. Browse our packages and add something delicious!</p>
+            </div>
+            <div class="cart-total-row">
+                <span>Total</span>
+                <span id="cartTotalPrice">₱0</span>
+            </div>
+            <div class="bento-modal-footer">
+                <button id="checkoutBtn" class="btn btn-primary" disabled>Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CHECKOUT MODAL -->
+    <div id="checkoutModal" class="bento-modal">
+        <div class="bento-modal-content checkout-modal-content">
+            <span class="bento-modal-close" id="checkoutModalClose">&times;</span>
+            <div class="bento-modal-header">
+                <div>
+                    <h3>Checkout</h3>
+                    <p class="bento-pax-subtitle">Choose how you'd like to send your order</p>
+                </div>
+            </div>
+            <div class="checkout-form">
+                <label>Your Name
+                    <input type="text" id="custName" placeholder="Juan Dela Cruz">
+                </label>
+                <label>Contact Number
+                    <input type="tel" id="custPhone" placeholder="09XXXXXXXXX">
+                </label>
+                <label>Date Needed
+                    <input type="date" id="custDate">
+                </label>
+                <label>Delivery Address / Notes
+                    <textarea id="custNotes" rows="2" placeholder="Delivery address or special instructions"></textarea>
+                </label>
+            </div>
+            <div id="checkoutSummary" class="checkout-summary"></div>
+            <div class="checkout-options">
+                <button id="sendEmailBtn" class="btn btn-outline">📧 Send via Email</button>
+                <button id="sendMessengerBtn" class="btn btn-primary">💬 Send via Messenger</button>
+                <button id="sendTextBtn" class="btn btn-dark">📱 Send via Text/SMS</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
