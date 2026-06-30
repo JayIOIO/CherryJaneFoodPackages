@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     // ====== BUSINESS CONTACT SETTINGS — EDIT THESE TO MATCH YOUR REAL DETAILS ======
-    const BUSINESS_EMAIL = "cherryjanefoodpackages@gmail.com"; // <-- put your real email here
+    const BUSINESS_EMAIL = "mhersanjohnsalenga@gmail.com"; // <-- put your real email here
     const BUSINESS_PHONE = "09207074255"; // <-- used for SMS/Text
     const MESSENGER_USERNAME = "crisanto.salenga.79#"; // <-- your Facebook Page username (from facebook.com/yourpage)
     // ===================================================================================
